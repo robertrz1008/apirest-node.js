@@ -8,7 +8,7 @@ const productRouter = router
 
 app.use(express.json())
 
-app.get("/home", (req, res) => {
+app.get("/", (req, res) => {
     res.send("Hola desde el servidor")
 })
 
